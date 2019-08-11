@@ -1,0 +1,23 @@
+{
+  "name": "vue-form-builder",
+  "version": "1.0.0",
+  "description": "An in-browser form builder with vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifro/Vue-Form-Builder.git"
+  },
+  "author": "Jennifer Dixon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifro/Vue-Form-Builder/issues"
+  },
+  "homepage": "https://github.com/jennifro/Vue-Form-Builder#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}

@@ -1,5 +1,5 @@
 div#root-app {
   width: 100vw;
-  height: auto;
-  background-color: none;
+  height: 100vh;
+  background-color: goldenrod;
 }

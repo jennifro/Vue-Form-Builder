@@ -2,12 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- development version of vue.js, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <<link rel="stylesheet" href="/css/index.css">
     <title>Form Builder with Vue.js</title>
     <link type="text/css" href="index.css">
   </head>
   <body>
     <div id="root-app">
+      {{ question }}
     </div>
   </body>
 </html>
 
+var question = new Vue({
+  el: '#root-app',
+  data: {
+    question: 'What would you like to ask?'
+  }
+})
+
+<!-- style="
+  width: 100vw;
+  height: 100vh;
+  background-color: goldenrod;
+" -->
